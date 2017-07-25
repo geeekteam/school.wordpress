@@ -352,6 +352,9 @@
 
             if (validation.css('display') === 'block')
                 validation.remove();
+
+            if (inputs.val().length > 0)
+                inputs.val('');
         });
 
         var $whyUsCarousel = $('#why-us-carousel');
