@@ -219,47 +219,7 @@ get_header(); ?>
             <div class="container">
                 <div class="fw-mt-15 fw-bg-cover fw-bg-center fw-bg-no-repeat"
                      style="background-image: url('<?php echo get_template_directory_uri();?>/images/pages/conversational-english/panel.2.bg.jpg')">
-                    <div class="fw-border-box fw-pt-20 fw-pb-20 fw-pl-20 fw-pr-20 fw-pt-60@l fw-pb-60@l fw-pl-30@l fw-pr-30@l">
-                        <div class="fw-text-center">
-                            <div class="fw-inline-block fw-max-width-550">
-                                <p class="fw-fz-24 fw-font-medium fw-color-white fw-line-height-1-5">Первый результат
-                                    бесплатно!</p>
-                                <p class="fw-fz-16 fw-color-white fw-line-height-1-5 fw-mt-20 fw-mt-30@l">Изучайте
-                                    английский абсолютно бесплатно!
-                                    <br>
-                                    Пройдите курс «навылет», наберите максимальное количество баллов и станьте студентом
-                                    Школы Веры Горпинич</p>
-                            </div>
-                        </div>
-                        <div class="fw-mt-20 fw-mt-30@l">
-                            <div class="fw-grid fw-grid-15 fw-grid-middle">
-                                <div class="fw-width-1-1 fw-width-1-1@m fw-width-1-4@l">
-                                    <div class="fw-flex fw-flex-right fw-flex-middle">
-                                        <div class="fw-flex-grow-1 fw-text-right"><p
-                                                class="fw-fz-15 fw-color-white fw-line-height-1-2">Ближайшие
-                                                <br> доступные даты</p></div>
-                                        <div class="fw-flex-shrink-no fw-ml-10"><i class="icon icon-time-calendar"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fw-width-1-1 fw-width-1-1@m fw-width-1-4@l">
-                                    <input type="text" placeholder="Ваше имя"
-                                           class="fw-width-1-1 fw-border-box fw-height-50 fw-pl-15 fw-pr-15 fw-color-black fw-fz-15 fw-font-roboto">
-                                </div>
-                                <div class="fw-width-1-1 fw-width-1-1@m fw-width-1-4@l">
-                                    <input type="text" placeholder="Телефон"
-                                           class="fw-width-1-1 fw-border-box fw-height-50 fw-pl-15 fw-pr-15 fw-color-black fw-fz-15 fw-font-roboto">
-                                </div>
-                                <div class="fw-width-1-1 fw-width-1-1s@m fw-width-1-4@l">
-                                    <input type="text" placeholder="E-mail"
-                                           class="fw-width-1-1 fw-border-box fw-height-50 fw-pl-15 fw-pr-15 fw-color-black fw-fz-15 fw-font-roboto">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="fw-text-center fw-mt-20 fw-mt-40@l">
-                            <a href="#" class="button button-yellow">ОТПРАВИТЬ</a>
-                        </div>
-                    </div>
+                        <?php echo do_shortcode('[contact-form-7 id="118" title="Course out" html_class="fw-border-box fw-pt-20 fw-pb-20 fw-pl-20 fw-pr-20 fw-pt-60@l fw-pb-60@l fw-pl-30@l fw-pr-30@l"]'); ?>
                 </div>
             </div>
         </div>

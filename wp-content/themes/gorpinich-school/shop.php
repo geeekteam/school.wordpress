@@ -30,8 +30,6 @@ get_header(); ?>
             </div>
         </div>
 
-
-
         <div class="after-parallax-container">
             <div class="s-school-facts s-school-facts--reverse">
                 <img src="<?php echo get_template_directory_uri();?>/images/pages/thumbnail-facts-2.jpg" alt="" class="s-school-facts__image">
@@ -186,19 +184,7 @@ get_header(); ?>
                                 Узнайте как получить курсы бесплатно!</p>
                         </div>
                         <div class="fw-width-1-1 fw-flex-grow-1@l fw-mt-20 fw-mt-0@l">
-                            <form class="fw-grid fw-grid-15">
-                                <div class="fw-width-1-1 fw-width-2-5@m">
-                                    <input type="text" placeholder="Телефон"
-                                           class="fw-width-1-1 fw-border-box fw-height-50 fw-pl-15 fw-pr-15 fw-color-black fw-fz-15 fw-font-roboto">
-                                </div>
-                                <div class="fw-width-1-1 fw-width-2-5@m">
-                                    <input type="text" placeholder="Имя"
-                                           class="fw-width-1-1 fw-border-box fw-height-50 fw-pl-15 fw-pr-15 fw-color-black fw-fz-15 fw-font-roboto">
-                                </div>
-                                <div class="fw-width-1-1 fw-width-1-5@m">
-                                    <button type="submit" class="button button-yellow">УЗНАТЬ</button>
-                                </div>
-                            </form>
+                            <?php echo do_shortcode('[contact-form-7 id="119" title="Callback shop" html_class="fw-grid fw-grid-15"]'); ?>
                         </div>
                     </div>
                 </div>
