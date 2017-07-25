@@ -336,6 +336,14 @@
         app.popups();
         app.parallax('[data-parallax]');
 
+        $('.js-open-popup').click( function (e) {
+            e.preventDefault();
+
+            var currentUrl = window.location.href,
+                inputUrl = $('.js-popup').find('.jq-url');
+            inputUrl.val(currentUrl);
+        });
+
         var $whyUsCarousel = $('#why-us-carousel');
         var $reviewsCarousel = $('#reviews-carousel');
         var $reviewsVkCarousel = $('#reviews-vk-carousel');
